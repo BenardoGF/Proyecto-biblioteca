@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Bienvenido a la Librería (POO)</h1>
+<p>Esta es una aplicación de gestión de biblioteca utilizando POO en Python.</p>
+
+<div class="cards">
+  <div class="card">
+    <h3>Libros</h3>
+    <p class="kpi">{{ totals.books }}</p>
+  </div>
+  <div class="card">
+    <h3>Miembros</h3>
+    <p class="kpi">{{ totals.members }}</p>
+  </div>
+  <div class="card">
+    <h3>Disponibilidad</h3>
+    <p class="kpi">{{ totals.available }}</p>
+  </div>
+</div>
+{% endblock %}
