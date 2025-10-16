@@ -1,3 +1,7 @@
+# Ignorar todo menos la carpeta library1
+/*
+!.gitignore
+!library1/
 
 # Python / Flask
 __pycache__/
